@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
     <script src="https://kit.fontawesome.com/3fe832fbdd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css"> 
-    <link rel="stylesheet" href="fonts/fontawesome.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome.min.css"> 
     <title>BEM</title>
 </head>
 <body> 
@@ -15,35 +15,27 @@
     <div class="header__logo">  
         <img src="img/logo.jpg" alt="Logo">
     </div> 
-       <div class="header__nav">
+
+       <div class="main-nav">
        <a class="nav__link"href="#" >Home</a> 
        <a class="nav__link" href="#">About </a> 
-       <a class="nav__link nav__link_active  href="#">Servicing </a> 
+       <a class="nav__link nav__link--active  href="#">Servicing </a> 
        <a class="nav__link" href="#">Portfolio </a> 
        <a class="nav__link" href="#">Blog </a>  
-       <a  class="nav__link" href="#">Contact us </a>   
-       <a href="#"> <i class="fas fa-search"></i></a> 
-       </div>  
+       <a  class="nav__link" href="#">Contact us </a> 
+       </div>   
+       <div class="search">
+       <i class="fas fa-search"></i> 
+       </div>
       </header>
-       <div class="main">  
-
-           <div class="main__title">  
-              Web development project 
-           </div> 
-           <div class="main__subtitle">   
-            Very suitable to support all web development projects
-               </div>  
-           <div class="main__options"> 
-              <button class="main__button main__button_normal">OUR SERVICES </button>  
-              <button class="main__button main__button_active">HIRE IS NOW </button> 
-           </div>  
-           <div class="test">   
-               <p> add some test text</p> 
-               
-           </div>
-              
-               
-                
+       <div class="important">  
+            <h1> Web development project </h1>
+    <span>Very suitable to support all web development projects</span>
+           <div class="main__actions">  
+              <button class=" button__transparent">OUR SERVICES </button>  
+              <button class=" button__green">HIRE IS NOW </button>  
+               </div>
+           </div>   
        </div>
 </body>
 </html>
